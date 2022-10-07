@@ -1,45 +1,59 @@
 package Ej8;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class BagImpl<T> implements Bag<T>{
 
-    private List<BagElem<T>> lista = new ArrayList<BagElem<T>>();
-    private int size = 0, sizeDistinct = 0;
+    private Map<T, Integer> mapa = new HashMap<>();
+    private int sizeDistinct = 0;
 
     public BagImpl(){}
 
 
     @Override
     public void add(T elem) {
-       if(!(contains(elem))){
-           lista.add(elem);
-       }
+        if(!(mapa.containsKey(elem))){
+            mapa.put(elem, 1);
+        } else {
+            mapa.put(elem, mapa.get(elem) + 1);
+        }
     }
 
     @Override
     public int sizeDistinct() {
-        return sizeDistinct;
+        return mapa.size();
     }
 
     @Override
     public int count(T elem) {
-        return 0;
+        return mapa.getOrDefault(elem, 0);
     }
 
     @Override
     public int size() {
-        return size;
+        int total = 0;
+        for(int i : mapa.values()){
+            total += i;
+        }
+        return total;
     }
 
-    @Override
     public boolean contains(T elem) {
-
+        return mapa.containsKey(elem);
     }
 
     @Override
     public void remove(T elem) {
+        if(contains(elem)) {
+            throw new NoSuchElementException();
+        }
+        int prevAmount = count(elem);
+        if(prevAmount == 1){
+            mapa.remove(elem);
+        } else if (prevAmount > 1){
+                int newAmount = mapa.get(elem) - 1;
+                mapa.put(elem, newAmount);
+        }
 
     }
 }

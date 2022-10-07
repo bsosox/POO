@@ -3,14 +3,9 @@ package Ej8;
 public class BagElem<T> {
 
     private T elem;
-    private int amount = 0;
 
     public BagElem(T elem){
         this.elem = elem;
-    }
-
-    public int getAmount(){
-        return amount;
     }
 
     @Override
@@ -24,5 +19,6 @@ public class BagElem<T> {
         BagElem<T> aux = (BagElem<T>) o;
         return elem.equals(aux.elem);
     }
+
 
 }
