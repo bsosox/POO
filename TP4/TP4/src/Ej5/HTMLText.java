@@ -1,0 +1,6 @@
+package Ej5;
+
+public interface HTMLText {
+    String source();
+}
+//http://www.plantuml.com/plantuml/img/bLD1QiCm4Bph5O9U75h_e8SGS6d1AONw7ZQoKaHb2QHDAJZ-UuGYML9CKkgBpSxEQ3IxNbi4WyT14g6GcmCmJb-xRTlnNwGZeUuPOM_H0CE9MdqqZ5ShCX7295XBFoG8bJNNz1EDK5yKNSrNTZl_UaojLTQo2k2F5Zsr76_XeRGqyABD09WvU4Z-kUG3LnZAGUBW2QMr959TavzAtfz-DbhsHHwZInW5coAbQPjjyzwL1Y8h7S-qcuV2JFaDGGhsV-t4kwVU2lMTQS_iMByTZ7GTTsA9sqD3Fc2BIymSr9UF2si-xVbKrub44jq3yqvT0scY9DiG3yKRBO0uX0MG4YHhhdhtjvm1

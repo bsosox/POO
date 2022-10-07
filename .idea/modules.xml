@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/POO.iml" filepath="$PROJECT_DIR$/.idea/POO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TALLER/TALLER4/TALLER4.iml" filepath="$PROJECT_DIR$/TALLER/TALLER4/TALLER4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TALLER/TALLER5/TALLER5.iml" filepath="$PROJECT_DIR$/TALLER/TALLER5/TALLER5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TALLER/TALLER6/TALLER6.iml" filepath="$PROJECT_DIR$/TALLER/TALLER6/TALLER6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TALLER/TALLER7/TALLER7.iml" filepath="$PROJECT_DIR$/TALLER/TALLER7/TALLER7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TP2/TP2.iml" filepath="$PROJECT_DIR$/TP2/TP2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TP3/TP3.iml" filepath="$PROJECT_DIR$/TP3/TP3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TP4/TP4.iml" filepath="$PROJECT_DIR$/TP4/TP4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TP5/TP5.iml" filepath="$PROJECT_DIR$/TP5/TP5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TP6/TP6.iml" filepath="$PROJECT_DIR$/TP6/TP6.iml" />
+    </modules>
+  </component>
+</project>
