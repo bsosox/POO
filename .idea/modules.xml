@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/POO.iml" filepath="$PROJECT_DIR$/.idea/POO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SEGUNDO_PARCIAL/SEGUNDO_PARCIAL.iml" filepath="$PROJECT_DIR$/SEGUNDO_PARCIAL/SEGUNDO_PARCIAL.iml" />
       <module fileurl="file://$PROJECT_DIR$/TALLER/TALLER4/TALLER4.iml" filepath="$PROJECT_DIR$/TALLER/TALLER4/TALLER4.iml" />
       <module fileurl="file://$PROJECT_DIR$/TALLER/TALLER5/TALLER5.iml" filepath="$PROJECT_DIR$/TALLER/TALLER5/TALLER5.iml" />
       <module fileurl="file://$PROJECT_DIR$/TALLER/TALLER6/TALLER6.iml" filepath="$PROJECT_DIR$/TALLER/TALLER6/TALLER6.iml" />
@@ -12,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/TP4/TP4.iml" filepath="$PROJECT_DIR$/TP4/TP4.iml" />
       <module fileurl="file://$PROJECT_DIR$/TP5/TP5.iml" filepath="$PROJECT_DIR$/TP5/TP5.iml" />
       <module fileurl="file://$PROJECT_DIR$/TP6/TP6.iml" filepath="$PROJECT_DIR$/TP6/TP6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TP7/TP7.iml" filepath="$PROJECT_DIR$/TP7/TP7.iml" />
     </modules>
   </component>
 </project>
